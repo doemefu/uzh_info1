@@ -2,7 +2,19 @@
 
 # Change the functions below to flatten a given nested  list.
 def flatten_list(nested_list):
-    pass
+
+    if type(nested_list) != list:
+        raise TypeError("Expected argument has to be a list.")
+
+    return_list = []
+
+    for element in nested_list:
+        if isinstance(element, list):
+            return_list.extend(flatten_list(element))
+        else:
+           return_list.append(element)
+
+    return return_list
 
 
 # The following lines call the function and print the return

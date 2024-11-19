@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from unittest import TestCase
 
-from task import script
+from script import is_palindrome
 
 
 # This test suite only tests one simple example and whether
@@ -26,7 +26,7 @@ class PublicTestSuite(TestCase):
     # This test will be executed automatically by unittest.
     def test_is_palindrome(self):
         expected = True
-        actual = script.is_palindrome("A man, a plan, a canal: Panama")
+        actual = is_palindrome("A man, a plan, a canal: Panama")
         m = f"The is_palindrome(s) function should return {expected} but returned {actual}!"
         self._check_return_type(actual, expected)
         self.assertEqual(actual, expected, msg=m)

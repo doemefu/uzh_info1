@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from unittest import TestCase
 
-from task import script
+from script import flatten_list
 
 
 # This test suite only tests one simple example and whether
@@ -17,5 +17,5 @@ from task import script
 class PublicTestSuite(TestCase):
     def test_correct_return_type(self):
         nested_list = [1, [8, 4], 2, 3]
-        actual = script.flatten_list(nested_list)
+        actual = flatten_list(nested_list)
         self.assertIsInstance(actual, list)

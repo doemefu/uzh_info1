@@ -2,7 +2,14 @@
 
 # Change the functions below to determine the powerset of a given set.
 def powerset(nums):
-    return None
+    my_nums = list(set(nums))
+
+    if not my_nums:
+        return [[]]
+
+    sub_sets = powerset(my_nums[1:])
+
+    return sub_sets + [[my_nums[0]]+ sub_part for sub_part in sub_sets]
 
 
 # The following lines call the function and print the return

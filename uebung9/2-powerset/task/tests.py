@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from unittest import TestCase
 
-from task import script
+from script import powerset
 
 
 # This test suite only tests one simple example and whether
@@ -27,7 +27,7 @@ class PublicTestSuite(TestCase):
     def test_powerset(self):
         test_set = [1, 2, 3]
         expected = [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-        actual = script.powerset(test_set)
+        actual = powerset(test_set)
         self._assert_return_type(actual, expected)
         m = f"The powerset(nums) function should return '{expected}' but returned '{actual}'"
         self.assertEqual(actual, expected, m)

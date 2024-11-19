@@ -4,7 +4,9 @@
 # Do not rename the function or change its list of parameters!
 def factorial(n):
     # implement this function
-    pass
+    if n == 1:
+        return 1
+    return n*factorial(n-1)
 
 
 # The following line calls the function and prints the return

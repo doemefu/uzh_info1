@@ -9,9 +9,11 @@ def flatten_list(nested_list):
     return_list = []
 
     for element in nested_list:
-        if isinstance(element, list):
+        try:
+        #if isinstance(element, list):
             return_list.extend(flatten_list(element))
-        else:
+        except TypeError:
+        #else:
            return_list.append(element)
 
     return return_list

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from codecs import replace_errors
 
 # Count the number of recursive calls.
 # Not relevant to solve the exercise but just to show the performance improvement.
@@ -19,7 +20,24 @@ def knapsack(capacity, weights, values, lookup_table=None):
 
     # You need to change the following part of the function
 
-    return -1
+    if capacity <= 0 or len(weights) == 0:
+        return 0
+
+    if (capacity, tuple(weights[1:])) not in lookup_table:
+        lookup_table[(capacity, tuple(weights[1:]))] = knapsack(capacity, weights[1:], values[1:],
+                                                                lookup_table)
+
+    if weights[0] > capacity:
+        return lookup_table[(capacity, tuple(weights[1:]))]
+    else:
+        if (capacity - weights[0], tuple(weights[1:])) not in lookup_table:
+            lookup_table[(capacity - weights[0], tuple(weights[1:]))] = knapsack(capacity - weights[0], weights[1:],
+                                                                                 values[1:], lookup_table)
+        return max(lookup_table[(capacity - weights[0], tuple(weights[1:]))] + values[0],
+                   lookup_table[(capacity, tuple(weights[1:]))])
+
+
+#    return values[0]+knapsack(capacity-weights[0], weights[1:], values[1:]) if knapsack(capacity-weights[0], weights[1:], values[1:])+values[0] > knapsack(capacity, weights[1:], values[1:]) else 0
 
 
 if __name__ == "__main__":

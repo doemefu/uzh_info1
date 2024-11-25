@@ -8,7 +8,7 @@ I do not take any responsibility for the content of this repository. If you choo
 
 ## Assignment Summaries
 
-### Overview
+### Overview by Tasks
 
 1. [Assignment: Getting started](#assignment-1-getting-started)
 2. [Assignment: Function basics](#assignment-2-function-basics)
@@ -19,6 +19,10 @@ I do not take any responsibility for the content of this repository. If you choo
 7. [Assignment: Special methods](#assignment-7-special-methods)
 8. [Assignment: Testing](#assignment-8-testing)
 9. [Assignment: Recursion](#assignment-9-recursion)
+10. [Assignment: TBD](#assignment-10-tbd)
+11. [Assignment: TBD](#assignment-11-tbd)
+
+---
 
 ### Assignment 1: Getting Started
 1. **Hello-World**  
@@ -188,3 +192,13 @@ I do not take any responsibility for the content of this repository. If you choo
 
 6. **Knapsack Problem**  
    Develops a recursive solution to the 0/1 knapsack problem, demonstrating optimization with recursion and decision-making.
+
+---
+
+### Assignment 10: TBD
+
+---
+
+### Assignment 11: TBD
+
+---

@@ -17,16 +17,16 @@ This repository contains all the ACCESS assignments for the Informatics 1 lectur
 ## Assignment Summaries
 
 ### Assignment 1: Getting Started
-1. **1-Hello-World**  
+1. **Hello-World**  
    Introduces Python programming by guiding you to write and execute your first "Hello, World!" program, showcasing basic syntax and output.
 
-2. **2-Installing-Python**  
+2. **Installing-Python**  
    Step-by-step guide for installing Python on various platforms, including configuring the environment and verifying installation success.
 
-3. **3-Variable-Assignment**  
+3. **Variable-Assignment**  
    Explains variable assignment, naming conventions, data types, and basic operations to manipulate variables in Python.
 
-4. **4-Setup-IDE**  
+4. **Setup-IDE**  
    Guides the installation and configuration of an Integrated Development Environment (IDE) such as PyCharm or VS Code for efficient Python development.
 
 ---

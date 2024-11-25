@@ -2,7 +2,13 @@
 
 This repository contains all the ACCESS assignments for the Informatics 1 lecture at the University of Zurich (UZH). Each assignment is organized in its respective folder, with the folder name indicating the topic of the assignment.
 
-## Overview of Assignments
+## Disclaimer
+
+I do not take any responsibility for the content of this repository. If you choose to copy the code without understanding it, you do so at your own risk.
+
+## Assignment Summaries
+
+### Overview
 
 1. [Assignment: Getting started](#assignment-1-getting-started)
 2. [Assignment: Function basics](#assignment-2-function-basics)
@@ -13,8 +19,6 @@ This repository contains all the ACCESS assignments for the Informatics 1 lectur
 7. [Assignment: Special methods](#assignment-7-special-methods)
 8. [Assignment: Testing](#assignment-8-testing)
 9. [Assignment: Recursion](#assignment-9-recursion)
-
-## Assignment Summaries
 
 ### Assignment 1: Getting Started
 1. **Hello-World**  
@@ -184,8 +188,3 @@ This repository contains all the ACCESS assignments for the Informatics 1 lectur
 
 6. **Knapsack Problem**  
    Develops a recursive solution to the 0/1 knapsack problem, demonstrating optimization with recursion and decision-making.
-
-
-## Disclaimer
-
-I do not take any responsibility for the content of this repository. If you choose to copy the code without understanding it, you do so at your own risk.

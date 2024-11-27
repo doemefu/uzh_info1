@@ -3,9 +3,9 @@
 # The purpose of this file is illustrating the class usages. This script
 # is irrelevant for the grading and you can freely change its contents.
 
-from task.combustion_car import CombustionCar
-from task.electric_car import ElectricCar
-from task.hybrid_car import HybridCar
+from combustion_car import CombustionCar
+from electric_car import ElectricCar
+from hybrid_car import HybridCar
 
 # You can uncomment the following code to start tinkering with your solution
 

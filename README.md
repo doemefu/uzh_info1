@@ -2,10 +2,6 @@
 
 This repository contains all the ACCESS assignments for the Informatics 1 lecture at the University of Zurich (UZH). Each assignment is organized in its respective folder, with the folder name indicating the topic of the assignment.
 
-## Disclaimer
-
-I do not take any responsibility for the content of this repository. If you choose to copy the code without understanding it, you do so at your own risk.
-
 ## Assignment Summaries
 
 ### Overview by Tasks

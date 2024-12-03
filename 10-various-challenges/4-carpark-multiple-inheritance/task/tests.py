@@ -128,16 +128,16 @@ class TestCars(TestCase):
 
     def test_hybrid_remaining_range_electric(self):
         h = HybridCar(40.0, 8.0, 25.0, 400.0)
-        self.assertAlmostEqual(400.0, h.get_remaining_range(), delta=0.001)
+        self.assertAlmostEqual(900.0, h.get_remaining_range(), delta=0.001)
 
     def test_hybrid_remaining_range_electric_2(self):
         h = HybridCar(40.0, 8.0, 25.0, 1.0)
-        self.assertAlmostEqual(1.0, h.get_remaining_range(), delta=0.001)
+        self.assertAlmostEqual(501.0, h.get_remaining_range(), delta=0.001)
 
     def test_hybrid_remaining_range_combustion(self):
         h = HybridCar(40.0, 8.0, 25.0, 400.0)
         h.switch_to_combustion()
-        self.assertAlmostEqual(500, h.get_remaining_range(), delta=0.001)
+        self.assertAlmostEqual(900, h.get_remaining_range(), delta=0.001)
 
     def test_hybrid_drive_combustion_empty(self):
         h = HybridCar(40.0, 8.0, 25.0, 400.0)

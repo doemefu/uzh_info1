@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from unittest import TestCase
-import task.script as script
+import script as script
 
 class MyTestSuite(TestCase):
 

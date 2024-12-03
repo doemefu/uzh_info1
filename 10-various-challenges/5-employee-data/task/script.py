@@ -2,7 +2,7 @@
 
 # Implement the following function according to the instruction.
 def organize_employee_data(employees):
-    return {}
+    return {outer[1]: {inner[0]: inner[2] for inner in employees if inner[1] == outer[1]} for outer in employees}
 
 # The following lines call the function to print the return
 # value to the Console. This way you can check what it does.

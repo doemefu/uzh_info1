@@ -18,5 +18,11 @@ echo "${SOME_VAR}"
 # When running your script locally, make sure you provide
 # REPO_URL on the command line when invoking script.sh as explained
 # in the instructions:
-# REPO_URL="some-url" ./script.sh
+REPO_URL="some-url" ./script.sh
 
+ git clone "${REPO_URL}" repo
+ cd repo
+printf "ccc" > c.txt
+git add .
+git commit -am "Add new file c.txt with some content"
+git push origin main

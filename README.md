@@ -2,6 +2,19 @@
 
 This repository contains all the ACCESS assignments for the Informatics 1 lecture at the University of Zurich (UZH). Each assignment is organized in its respective folder, with the folder name indicating the topic of the assignment.
 
+## Exam info
+
+No git-coding
+no
+
+### Tasks
+
+60 Points total
+- 3x kPrim: each 3 points --> Total 9
+- 7x programming: each from 6 to 11 points --> Total 51
+
+
+
 ## Assignment Summaries
 
 ### Overview by Tasks
